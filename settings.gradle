@@ -1,0 +1,4 @@
+
+
+rootProject.name = 'micro-service-practice'
+include 'api-gateway','discovery-server','shop-service','common-module'

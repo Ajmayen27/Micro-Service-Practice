@@ -1,0 +1,30 @@
+
+
+server:
+  port: 8081
+
+
+spring:
+  application:
+    name: shop-service
+
+
+
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop_service_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 16260
+
+
+
+
+  jpa:
+    open-in-view: false
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+
